@@ -3,6 +3,7 @@ body {
   background-color: #f5f5f5;
   margin: 0;
   padding: 0;
+  font-family:"Fira Sans";
 }
 
 
@@ -44,6 +45,7 @@ h2 {
 
 p {
   font-size: 18px;
+  font-family:"Fira Sans";
 }
 
 
@@ -67,7 +69,7 @@ input {
     margin-right: 10px;
 }
 
-button {
+button ,a{
     padding: 10px 20px;
     font-size: 16px;
     background-color: #ff69b4;
@@ -81,6 +83,14 @@ button {
 
 button:hover {
     background-color: #ff4591;
+}
+a{
+  display: flex;
+  text-decoration: none;
+  font-size: 18px;
+  width: max-content;
+  text-align: center;
+  margin: 20px auto;
 }
 
 #lovePoem {
@@ -113,4 +123,7 @@ footer {
 .footer-content {
     max-width: 500px;
     margin: 0 auto;
+}
+.par{
+  color: #fff;
 }
